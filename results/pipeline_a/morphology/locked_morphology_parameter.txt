@@ -1,0 +1,1 @@
+Morphological Operation: Opening\nStructuring Element Shape: Ellipse\nStructuring Element Size: 3 x 3\n

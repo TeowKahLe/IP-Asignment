@@ -1,0 +1,4 @@
+﻿Split,Images,Labels,Percentage,Missing Labels,Orphan Labels,Empty Labels,Corrupted Images
+train,13395,13395,87.9,0,0,4,0
+valid,1232,1232,8.08,0,0,1,0
+test,612,612,4.02,0,0,0,0

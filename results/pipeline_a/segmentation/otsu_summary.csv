@@ -1,0 +1,2 @@
+Algorithm,Images Evaluated,Avg Boundary Edge Alignment ↑,Avg Region Uniformity ↑,Avg Foreground–Background Contrast ↑,Avg Time (ms) ↓,Avg Otsu Threshold,Skipped/Unreadable Images
+Otsu Thresholding,5553,0.4487241413371762,0.8269373212937469,0.3757110377788737,0.2881150549189529,120.14838825859896,0

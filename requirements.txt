@@ -1,0 +1,40 @@
+# Fruit Ripeness Assessment - Python Dependencies
+# Recommended Python version: Python 3.13.15
+#
+# Installation Steps
+#
+# 1. Open the terminal in the project folder.
+#
+# 2. Create a virtual environment outside the project folder:
+#    py -3.13 -m venv C:\venvs\IP-Asignment-venv
+#
+# 3. Activate the virtual environment:
+#    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+#    C:\venvs\IP-Asignment-venv\Scripts\Activate.ps1
+#
+# 4. Install all required packages:
+#    python -m pip install --upgrade pip
+#    python -m pip install -r requirements.txt
+#
+# 5. In VS Code, select the following Python interpreter / Jupyter kernel:
+#    Press Ctrl + Shift + P.
+#    Type Python: Select Interpreter.
+#    Choose Enter interpreter path...
+#    Select:
+#    IP-Asignment-venv (3.13.15.final.0) C:\venvs\IP-Asignment-venv\Scripts\python.exe
+#    
+# If multiple Python versions are installed, use the Python 3.13 interpreter explicitly.
+jupyter
+ipykernel
+pillow
+numpy
+pandas
+matplotlib
+opencv-python
+pyyaml
+torch
+torchvision
+pyiqa
+tqdm
+scikit-image
+scikit-learn
