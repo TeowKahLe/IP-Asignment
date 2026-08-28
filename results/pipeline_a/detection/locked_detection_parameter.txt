@@ -1,0 +1,4 @@
+Algorithm: External Contour Detection
+Retrieval Mode: RETR_EXTERNAL
+Approximation Mode: CHAIN_APPROX_SIMPLE
+Minimum Contour Area: 10000
