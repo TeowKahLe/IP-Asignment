@@ -1,0 +1,454 @@
+{
+  "8": {
+    "per_group": {
+      "Apple": {
+        "fisher_score": 0.03958266475896736,
+        "maximum_fisher_score": 0.0710901234256941,
+        "top_k_mean_fisher_score": 0.0572751645123077,
+        "silhouette_score": -0.057101579241257854,
+        "feature_extraction_time_ms_per_roi": 57.572271471494226,
+        "feature_vector_size": 24,
+        "samples_evaluated": 333,
+        "classes_evaluated": 4
+      },
+      "Avocado": {
+        "fisher_score": 0.029460279920180354,
+        "maximum_fisher_score": 0.14460494599579932,
+        "top_k_mean_fisher_score": 0.05446760738898759,
+        "silhouette_score": -0.06733664343927497,
+        "feature_extraction_time_ms_per_roi": 12.39273846154336,
+        "feature_vector_size": 24,
+        "samples_evaluated": 1547,
+        "classes_evaluated": 4
+      },
+      "Banana": {
+        "fisher_score": 0.03542805223746218,
+        "maximum_fisher_score": 0.1156076276645542,
+        "top_k_mean_fisher_score": 0.0614971342149667,
+        "silhouette_score": 0.0009933405446055639,
+        "feature_extraction_time_ms_per_roi": 21.137338919523238,
+        "feature_vector_size": 24,
+        "samples_evaluated": 907,
+        "classes_evaluated": 4
+      },
+      "Grape": {
+        "fisher_score": 0.05856526290167844,
+        "maximum_fisher_score": 0.2342849980732841,
+        "top_k_mean_fisher_score": 0.104209243630266,
+        "silhouette_score": -0.07901531479130196,
+        "feature_extraction_time_ms_per_roi": 24.484759131555016,
+        "feature_vector_size": 24,
+        "samples_evaluated": 783,
+        "classes_evaluated": 4
+      },
+      "Mango": {
+        "fisher_score": 0.04559839141192291,
+        "maximum_fisher_score": 0.10983314431931518,
+        "top_k_mean_fisher_score": 0.07922054973342618,
+        "silhouette_score": -0.019286451973059338,
+        "feature_extraction_time_ms_per_roi": 109.5518080000433,
+        "feature_vector_size": 24,
+        "samples_evaluated": 175,
+        "classes_evaluated": 4
+      },
+      "Melon": {
+        "fisher_score": 0.06098761511741185,
+        "maximum_fisher_score": 0.29382148656685775,
+        "top_k_mean_fisher_score": 0.11479283892156181,
+        "silhouette_score": -0.10988212349693072,
+        "feature_extraction_time_ms_per_roi": 107.70542921352572,
+        "feature_vector_size": 24,
+        "samples_evaluated": 178,
+        "classes_evaluated": 4
+      },
+      "Orange": {
+        "fisher_score": 0.06291035124657955,
+        "maximum_fisher_score": 0.19956490482086686,
+        "top_k_mean_fisher_score": 0.12106708579815831,
+        "silhouette_score": -0.01199239497547531,
+        "feature_extraction_time_ms_per_roi": 16.484579879628182,
+        "feature_vector_size": 24,
+        "samples_evaluated": 1163,
+        "classes_evaluated": 4
+      },
+      "Peach": {
+        "fisher_score": 0.048925294914586547,
+        "maximum_fisher_score": 0.13654998188860504,
+        "top_k_mean_fisher_score": 0.08180098542778165,
+        "silhouette_score": -0.08002471390901993,
+        "feature_extraction_time_ms_per_roi": 220.36283218399515,
+        "feature_vector_size": 24,
+        "samples_evaluated": 87,
+        "classes_evaluated": 4
+      },
+      "Pear": {
+        "fisher_score": 0.08104632820200314,
+        "maximum_fisher_score": 0.15742197468620683,
+        "top_k_mean_fisher_score": 0.11509171534432058,
+        "silhouette_score": -0.07267716674837539,
+        "feature_extraction_time_ms_per_roi": 242.67805569629846,
+        "feature_vector_size": 24,
+        "samples_evaluated": 79,
+        "classes_evaluated": 4
+      },
+      "Tomato": {
+        "fisher_score": 0.05081551550055793,
+        "maximum_fisher_score": 0.13165109449593934,
+        "top_k_mean_fisher_score": 0.08322250306467316,
+        "silhouette_score": -0.022420966690681072,
+        "feature_extraction_time_ms_per_roi": 25.225745263167866,
+        "feature_vector_size": 24,
+        "samples_evaluated": 760,
+        "classes_evaluated": 4
+      },
+      "validation": {
+        "skipped": true,
+        "reason": "Fisher Score requires at least two classes"
+      }
+    },
+    "macro_fisher_score": 0.05133197562113503,
+    "macro_maximum_fisher_score": 0.15944302819371228,
+    "macro_top_k_mean_fisher_score": 0.08726448280364497,
+    "macro_silhouette_score": -0.0518744014720771,
+    "groups_evaluated": 10
+  },
+  "16": {
+    "per_group": {
+      "Apple": {
+        "fisher_score": 0.037647849077356445,
+        "maximum_fisher_score": 0.10260712088592762,
+        "top_k_mean_fisher_score": 0.06627477147499536,
+        "silhouette_score": -0.07357433187545717,
+        "feature_extraction_time_ms_per_roi": 39.43374174172982,
+        "feature_vector_size": 48,
+        "samples_evaluated": 333,
+        "classes_evaluated": 4
+      },
+      "Avocado": {
+        "fisher_score": 0.026609903706726737,
+        "maximum_fisher_score": 0.11736582620604297,
+        "top_k_mean_fisher_score": 0.07007964771639572,
+        "silhouette_score": -0.047040668931403434,
+        "feature_extraction_time_ms_per_roi": 8.488323206202992,
+        "feature_vector_size": 48,
+        "samples_evaluated": 1547,
+        "classes_evaluated": 4
+      },
+      "Banana": {
+        "fisher_score": 0.030974254078588115,
+        "maximum_fisher_score": 0.09405871664506639,
+        "top_k_mean_fisher_score": 0.06917451011008854,
+        "silhouette_score": -0.014822580454762452,
+        "feature_extraction_time_ms_per_roi": 14.477878721054056,
+        "feature_vector_size": 48,
+        "samples_evaluated": 907,
+        "classes_evaluated": 4
+      },
+      "Grape": {
+        "fisher_score": 0.04477373183191805,
+        "maximum_fisher_score": 0.22336606995416772,
+        "top_k_mean_fisher_score": 0.10317214283428393,
+        "silhouette_score": -0.0486596431120609,
+        "feature_extraction_time_ms_per_roi": 16.770671775218428,
+        "feature_vector_size": 48,
+        "samples_evaluated": 783,
+        "classes_evaluated": 4
+      },
+      "Mango": {
+        "fisher_score": 0.04679503497313856,
+        "maximum_fisher_score": 0.15278113671552598,
+        "top_k_mean_fisher_score": 0.10266585796589425,
+        "silhouette_score": -0.022044064452166758,
+        "feature_extraction_time_ms_per_roi": 75.03677714283445,
+        "feature_vector_size": 48,
+        "samples_evaluated": 175,
+        "classes_evaluated": 4
+      },
+      "Melon": {
+        "fisher_score": 0.05373621062814813,
+        "maximum_fisher_score": 0.2976300198808036,
+        "top_k_mean_fisher_score": 0.15175979558785246,
+        "silhouette_score": -0.15778540680098893,
+        "feature_extraction_time_ms_per_roi": 73.77211235952825,
+        "feature_vector_size": 48,
+        "samples_evaluated": 178,
+        "classes_evaluated": 4
+      },
+      "Orange": {
+        "fisher_score": 0.04981007104423598,
+        "maximum_fisher_score": 0.17466323461172392,
+        "top_k_mean_fisher_score": 0.12030346418813469,
+        "silhouette_score": -0.03296907438202049,
+        "feature_extraction_time_ms_per_roi": 11.291002579532268,
+        "feature_vector_size": 48,
+        "samples_evaluated": 1163,
+        "classes_evaluated": 4
+      },
+      "Peach": {
+        "fisher_score": 0.04192660578200277,
+        "maximum_fisher_score": 0.11725797223222154,
+        "top_k_mean_fisher_score": 0.0848449971679592,
+        "silhouette_score": -0.07158011582434608,
+        "feature_extraction_time_ms_per_roi": 150.93604597696586,
+        "feature_vector_size": 48,
+        "samples_evaluated": 87,
+        "classes_evaluated": 4
+      },
+      "Pear": {
+        "fisher_score": 0.06961878620893859,
+        "maximum_fisher_score": 0.1559799128810861,
+        "top_k_mean_fisher_score": 0.13022343704540212,
+        "silhouette_score": -0.07511533532803,
+        "feature_extraction_time_ms_per_roi": 166.22070886070924,
+        "feature_vector_size": 48,
+        "samples_evaluated": 79,
+        "classes_evaluated": 4
+      },
+      "Tomato": {
+        "fisher_score": 0.04039686580426626,
+        "maximum_fisher_score": 0.12227340287391461,
+        "top_k_mean_fisher_score": 0.08936485095218095,
+        "silhouette_score": -0.029624485008567854,
+        "feature_extraction_time_ms_per_roi": 17.27820526315267,
+        "feature_vector_size": 48,
+        "samples_evaluated": 760,
+        "classes_evaluated": 4
+      },
+      "validation": {
+        "skipped": true,
+        "reason": "Fisher Score requires at least two classes"
+      }
+    },
+    "macro_fisher_score": 0.04422893131353196,
+    "macro_maximum_fisher_score": 0.15579834128864803,
+    "macro_top_k_mean_fisher_score": 0.09878634750431872,
+    "macro_silhouette_score": -0.0573215706169804,
+    "groups_evaluated": 10
+  },
+  "32": {
+    "per_group": {
+      "Apple": {
+        "fisher_score": 0.03333427878876684,
+        "maximum_fisher_score": 0.08334465557521174,
+        "top_k_mean_fisher_score": 0.07005022288091159,
+        "silhouette_score": -0.09310751161402857,
+        "feature_extraction_time_ms_per_roi": 56.92556966961412,
+        "feature_vector_size": 96,
+        "samples_evaluated": 333,
+        "classes_evaluated": 4
+      },
+      "Avocado": {
+        "fisher_score": 0.0239599090160381,
+        "maximum_fisher_score": 0.1071635626273179,
+        "top_k_mean_fisher_score": 0.08104095207956924,
+        "silhouette_score": -0.03367637555881872,
+        "feature_extraction_time_ms_per_roi": 12.25353244989108,
+        "feature_vector_size": 96,
+        "samples_evaluated": 1547,
+        "classes_evaluated": 4
+      },
+      "Banana": {
+        "fisher_score": 0.02614692639006187,
+        "maximum_fisher_score": 0.1023617873381136,
+        "top_k_mean_fisher_score": 0.07797934451766558,
+        "silhouette_score": -0.03520113855707958,
+        "feature_extraction_time_ms_per_roi": 20.8999059536731,
+        "feature_vector_size": 96,
+        "samples_evaluated": 907,
+        "classes_evaluated": 4
+      },
+      "Grape": {
+        "fisher_score": 0.03760390006909019,
+        "maximum_fisher_score": 0.2102601125520732,
+        "top_k_mean_fisher_score": 0.1069087143556279,
+        "silhouette_score": -0.04693941243307777,
+        "feature_extraction_time_ms_per_roi": 24.209725031904856,
+        "feature_vector_size": 96,
+        "samples_evaluated": 783,
+        "classes_evaluated": 4
+      },
+      "Mango": {
+        "fisher_score": 0.0457629930352201,
+        "maximum_fisher_score": 0.15027641279929768,
+        "top_k_mean_fisher_score": 0.11490795929010059,
+        "silhouette_score": -0.031074858526672997,
+        "feature_extraction_time_ms_per_roi": 108.32122685703715,
+        "feature_vector_size": 96,
+        "samples_evaluated": 175,
+        "classes_evaluated": 4
+      },
+      "Melon": {
+        "fisher_score": 0.05275407873967536,
+        "maximum_fisher_score": 0.3521979639362699,
+        "top_k_mean_fisher_score": 0.2235219159904956,
+        "silhouette_score": -0.19836890707651736,
+        "feature_extraction_time_ms_per_roi": 106.49558820214327,
+        "feature_vector_size": 96,
+        "samples_evaluated": 178,
+        "classes_evaluated": 4
+      },
+      "Orange": {
+        "fisher_score": 0.042916881549071556,
+        "maximum_fisher_score": 0.17470186237210883,
+        "top_k_mean_fisher_score": 0.12572585878931292,
+        "silhouette_score": -0.058227630799362086,
+        "feature_extraction_time_ms_per_roi": 16.299410748049443,
+        "feature_vector_size": 96,
+        "samples_evaluated": 1163,
+        "classes_evaluated": 4
+      },
+      "Peach": {
+        "fisher_score": 0.039724600457579896,
+        "maximum_fisher_score": 0.14715251503101281,
+        "top_k_mean_fisher_score": 0.09788950036038216,
+        "silhouette_score": -0.06839514182957612,
+        "feature_extraction_time_ms_per_roi": 217.8875252871437,
+        "feature_vector_size": 96,
+        "samples_evaluated": 87,
+        "classes_evaluated": 4
+      },
+      "Pear": {
+        "fisher_score": 0.06535587144092853,
+        "maximum_fisher_score": 0.18597576322946613,
+        "top_k_mean_fisher_score": 0.12409672102440687,
+        "silhouette_score": -0.0970218097274589,
+        "feature_extraction_time_ms_per_roi": 239.95208480989243,
+        "feature_vector_size": 96,
+        "samples_evaluated": 79,
+        "classes_evaluated": 4
+      },
+      "Tomato": {
+        "fisher_score": 0.035290521809694345,
+        "maximum_fisher_score": 0.12266608101211997,
+        "top_k_mean_fisher_score": 0.09678494624620071,
+        "silhouette_score": -0.03806288390798256,
+        "feature_extraction_time_ms_per_roi": 24.942387763133553,
+        "feature_vector_size": 96,
+        "samples_evaluated": 760,
+        "classes_evaluated": 4
+      },
+      "validation": {
+        "skipped": true,
+        "reason": "Fisher Score requires at least two classes"
+      }
+    },
+    "macro_fisher_score": 0.04028499612961268,
+    "macro_maximum_fisher_score": 0.16361007164729918,
+    "macro_top_k_mean_fisher_score": 0.11189061355346733,
+    "macro_silhouette_score": -0.07000756700305746,
+    "groups_evaluated": 10
+  },
+  "64": {
+    "per_group": {
+      "Apple": {
+        "fisher_score": 0.032715627956074946,
+        "maximum_fisher_score": 0.09405103580285253,
+        "top_k_mean_fisher_score": 0.0768119968738719,
+        "silhouette_score": -0.11076525904580807,
+        "feature_extraction_time_ms_per_roi": 52.6820033033205,
+        "feature_vector_size": 192,
+        "samples_evaluated": 333,
+        "classes_evaluated": 4
+      },
+      "Avocado": {
+        "fisher_score": 0.022498513553020683,
+        "maximum_fisher_score": 0.13314850833374728,
+        "top_k_mean_fisher_score": 0.0939235680364234,
+        "silhouette_score": -0.024380863564022297,
+        "feature_extraction_time_ms_per_roi": 11.340082159021156,
+        "feature_vector_size": 192,
+        "samples_evaluated": 1547,
+        "classes_evaluated": 4
+      },
+      "Banana": {
+        "fisher_score": 0.023915187416093418,
+        "maximum_fisher_score": 0.0987555806439637,
+        "top_k_mean_fisher_score": 0.0851771561925278,
+        "silhouette_score": -0.05565910091135067,
+        "feature_extraction_time_ms_per_roi": 19.341904189642477,
+        "feature_vector_size": 192,
+        "samples_evaluated": 907,
+        "classes_evaluated": 4
+      },
+      "Grape": {
+        "fisher_score": 0.03436652148400333,
+        "maximum_fisher_score": 0.20773008250263938,
+        "top_k_mean_fisher_score": 0.1123156334018928,
+        "silhouette_score": -0.04938763248243148,
+        "feature_extraction_time_ms_per_roi": 22.40498991060757,
+        "feature_vector_size": 192,
+        "samples_evaluated": 783,
+        "classes_evaluated": 4
+      },
+      "Mango": {
+        "fisher_score": 0.04511672504324308,
+        "maximum_fisher_score": 0.15307584252535303,
+        "top_k_mean_fisher_score": 0.1256617997516721,
+        "silhouette_score": -0.03996457455070184,
+        "feature_extraction_time_ms_per_roi": 100.24632628574702,
+        "feature_vector_size": 192,
+        "samples_evaluated": 175,
+        "classes_evaluated": 4
+      },
+      "Melon": {
+        "fisher_score": 0.05077675607084814,
+        "maximum_fisher_score": 0.35516490629048914,
+        "top_k_mean_fisher_score": 0.2764796480076953,
+        "silhouette_score": -0.23158341712297223,
+        "feature_extraction_time_ms_per_roi": 98.55678146070633,
+        "feature_vector_size": 192,
+        "samples_evaluated": 178,
+        "classes_evaluated": 4
+      },
+      "Orange": {
+        "fisher_score": 0.03943140046262572,
+        "maximum_fisher_score": 0.16546322199855165,
+        "top_k_mean_fisher_score": 0.13677862358356355,
+        "silhouette_score": -0.08530113351476142,
+        "feature_extraction_time_ms_per_roi": 15.084356921759008,
+        "feature_vector_size": 192,
+        "samples_evaluated": 1163,
+        "classes_evaluated": 4
+      },
+      "Peach": {
+        "fisher_score": 0.03940906958954415,
+        "maximum_fisher_score": 0.14051040275744073,
+        "top_k_mean_fisher_score": 0.12043070594095233,
+        "silhouette_score": -0.07171352125630988,
+        "feature_extraction_time_ms_per_roi": 201.64490919546813,
+        "feature_vector_size": 192,
+        "samples_evaluated": 87,
+        "classes_evaluated": 4
+      },
+      "Pear": {
+        "fisher_score": 0.06482022279414154,
+        "maximum_fisher_score": 0.19863470839410835,
+        "top_k_mean_fisher_score": 0.14027752248290853,
+        "silhouette_score": -0.11129081574522158,
+        "feature_extraction_time_ms_per_roi": 222.06464683551553,
+        "feature_vector_size": 192,
+        "samples_evaluated": 79,
+        "classes_evaluated": 4
+      },
+      "Tomato": {
+        "fisher_score": 0.033595324562076895,
+        "maximum_fisher_score": 0.12259121801991053,
+        "top_k_mean_fisher_score": 0.10603063667378117,
+        "silhouette_score": -0.0458878343146503,
+        "feature_extraction_time_ms_per_roi": 23.083035657902272,
+        "feature_vector_size": 192,
+        "samples_evaluated": 760,
+        "classes_evaluated": 4
+      },
+      "validation": {
+        "skipped": true,
+        "reason": "Fisher Score requires at least two classes"
+      }
+    },
+    "macro_fisher_score": 0.03866453489316719,
+    "macro_maximum_fisher_score": 0.16691255072690564,
+    "macro_top_k_mean_fisher_score": 0.1273887290945289,
+    "macro_silhouette_score": -0.08259341525082296,
+    "groups_evaluated": 10
+  }
+}
