@@ -1,0 +1,36 @@
+{
+  "method": "RGB Histogram",
+  "bins_per_rgb_channel": 8,
+  "intensity_range": "0-255",
+  "histogram_normalization": "L1 per channel",
+  "evaluation_split": "validation",
+  "selection_priority": [
+    "Fisher Score",
+    "Silhouette Score",
+    "Feature Extraction Time",
+    "Feature Vector Size"
+  ],
+  "winner_metrics": {
+    "fruit_type_fisher_score": 0.1299606005927216,
+    "fruit_type_silhouette_score": -0.05175879120603549,
+    "ripeness_fisher_score": 0.01247120298665092,
+    "ripeness_silhouette_score": -0.06775471111135298,
+    "fisher_score": 0.07121590178968626,
+    "silhouette_score": -0.059756751158694235,
+    "feature_extraction_time_ms_per_roi": 2.9490180587613564,
+    "feature_vector_size": 24,
+    "samples_evaluated": 6501,
+    "label_sets_evaluated": [
+      "fruit_type",
+      "ripeness"
+    ],
+    "ripeness_per_fruit_type_macro_fisher_score": 0.05133197562113503,
+    "ripeness_per_fruit_type_macro_maximum_fisher_score": 0.15944302819371228,
+    "ripeness_per_fruit_type_macro_top_k_mean_fisher_score": 0.08726448280364497,
+    "ripeness_per_fruit_type_macro_silhouette_score": -0.0518744014720771
+  },
+  "validation_samples": 6501,
+  "train_samples": 46035,
+  "winning_train_extraction_time_ms_per_roi": 3.497646873141596,
+  "train_processing": "streamed from in-memory Stage 5 masks; no intermediate ROI cache files"
+}

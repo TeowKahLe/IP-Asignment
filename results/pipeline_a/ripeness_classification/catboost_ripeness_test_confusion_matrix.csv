@@ -1,0 +1,6 @@
+True label,Overripe,Ripe,Rotten,Unripe,images
+Overripe,390,134,99,38,6
+Ripe,77,1757,425,234,34
+Rotten,46,346,1385,152,17
+Unripe,13,280,170,1399,32
+images,8,123,134,107,254

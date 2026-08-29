@@ -38,3 +38,5 @@ pyiqa
 tqdm
 scikit-image
 scikit-learn
+lightgbm
+catboost
