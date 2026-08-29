@@ -1,0 +1,2 @@
+Algorithm,Images Evaluated,Avg Boundary Edge Alignment ↑,Avg Region Uniformity ↑,Avg Foreground–Background Contrast ↑,Avg Time (ms) ↓,Avg Global Threshold,Skipped/Unreadable Images
+Global Thresholding,5550,0.5303486388062457,0.8046879961039569,0.3749347760763254,0.34865239639927764,128.0,3

@@ -126,7 +126,7 @@ def preprocess_image(
     angle: float = DEFAULT_ANGLE,
     balance: float = DEFAULT_BALANCE,
 ) -> tuple[np.ndarray, dict[str, Any]]:
-    """Apply Pipeline A's Wiener-filter preprocessing and return metadata."""
+    """Apply Pipeline B's Wiener-filter preprocessing and return metadata."""
 
     started_at = perf_counter()
 
