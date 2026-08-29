@@ -1,0 +1,11 @@
+{
+  "locked_parameters": {
+    "n_estimators": 300,
+    "learning_rate": 0.1,
+    "num_leaves": 63,
+    "max_depth": -1
+  },
+  "train_samples": 46035,
+  "training_time_seconds": 7.147896200011019,
+  "model_path": "c:\\Users\\Hwang\\Documents\\GitHub\\IP-Asignment\\results\\pipeline_a\\fruit_type_classification\\lightgbm_fruit_type_model.joblib"
+}

@@ -29,5 +29,8 @@
     "ripeness_per_fruit_type_macro_top_k_mean_fisher_score": 0.08726448280364497,
     "ripeness_per_fruit_type_macro_silhouette_score": -0.0518744014720771
   },
-  "validation_samples": 6501
+  "validation_samples": 6501,
+  "train_samples": 46035,
+  "winning_train_extraction_time_ms_per_roi": 3.497646873141596,
+  "train_processing": "streamed from in-memory Stage 5 masks; no intermediate ROI cache files"
 }

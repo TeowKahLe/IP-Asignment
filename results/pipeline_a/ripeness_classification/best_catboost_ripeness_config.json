@@ -1,0 +1,87 @@
+{
+  "method": "CatBoost",
+  "iterations": 300,
+  "learning_rate": 0.1,
+  "depth": 8,
+  "l2_leaf_reg": 1,
+  "accuracy": 0.6803568681741271,
+  "macro_precision": 0.7012654464112307,
+  "macro_recall": 0.6278746373977816,
+  "macro_f1_score": 0.6519166356543573,
+  "training_time_seconds": 30.827616700000362,
+  "prediction_time_ms_per_roi": 0.0017195354547658744,
+  "samples_evaluated": 6501,
+  "classes_evaluated": 5,
+  "class_labels": [
+    "Overripe",
+    "Ripe",
+    "Rotten",
+    "Unripe",
+    "images"
+  ],
+  "per_class_precision": {
+    "Overripe": 0.7424547283702213,
+    "Ripe": 0.6620781527531083,
+    "Rotten": 0.635483870967742,
+    "Unripe": 0.7286678944137508,
+    "images": 0.7376425855513308
+  },
+  "per_class_recall": {
+    "Overripe": 0.5885167464114832,
+    "Ripe": 0.7046313799621928,
+    "Rotten": 0.7172330097087378,
+    "Unripe": 0.7322640345465762,
+    "images": 0.3967280163599182
+  },
+  "per_class_f1_score": {
+    "Overripe": 0.6565836298932385,
+    "Ripe": 0.6826923076923077,
+    "Rotten": 0.6738882554161916,
+    "Unripe": 0.7304615384615385,
+    "images": 0.5159574468085106
+  },
+  "per_class_support": {
+    "Overripe": 627,
+    "Ripe": 2116,
+    "Rotten": 1648,
+    "Unripe": 1621,
+    "images": 489
+  },
+  "confusion_matrix": [
+    [
+      369,
+      133,
+      92,
+      27,
+      6
+    ],
+    [
+      69,
+      1491,
+      327,
+      203,
+      26
+    ],
+    [
+      41,
+      288,
+      1182,
+      125,
+      12
+    ],
+    [
+      14,
+      243,
+      152,
+      1187,
+      25
+    ],
+    [
+      4,
+      97,
+      107,
+      87,
+      194
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locked_parameters": {
+    "iterations": 300,
+    "learning_rate": 0.1,
+    "depth": 8,
+    "l2_leaf_reg": 1
+  },
+  "train_samples": 46035,
+  "training_time_seconds": 30.19669900002191,
+  "model_path": "c:\\Users\\Hwang\\Documents\\GitHub\\IP-Asignment\\results\\pipeline_a\\ripeness_classification\\catboost_ripeness_model.joblib"
+}
