@@ -1,0 +1,38 @@
+{
+  "method": "Local Binary Pattern (LBP)",
+  "radius": 3,
+  "neighbouring_points": 8,
+  "lbp_method": "uniform",
+  "input_colour_space": "Grayscale",
+  "histogram_normalization": "L1",
+  "evaluation_split": "validation",
+  "selection_priority": [
+    "Fisher Score",
+    "Silhouette Score",
+    "Feature Extraction Time",
+    "Feature Vector Size"
+  ],
+  "winner_metrics": {
+    "fruit_type_fisher_score": 0.157027477894008,
+    "fruit_type_silhouette_score": -0.22952500986487068,
+    "ripeness_fisher_score": 0.017797468240161186,
+    "ripeness_silhouette_score": -0.09610313285005617,
+    "fisher_score": 0.08741247306708459,
+    "silhouette_score": -0.16281407135746342,
+    "feature_extraction_time_ms_per_roi": 51.07754414435984,
+    "feature_vector_size": 10,
+    "samples_evaluated": 8368,
+    "label_sets_evaluated": [
+      "fruit_type",
+      "ripeness"
+    ],
+    "ripeness_per_fruit_type_macro_fisher_score": 0.12025860367609775,
+    "ripeness_per_fruit_type_macro_maximum_fisher_score": 0.23835722813230203,
+    "ripeness_per_fruit_type_macro_top_k_mean_fisher_score": 0.12025860367609775,
+    "ripeness_per_fruit_type_macro_silhouette_score": -0.11682908478738807
+  },
+  "validation_samples": 8368,
+  "train_samples": 38937,
+  "winning_train_extraction_time_ms_per_roi": 45.992064560726284,
+  "train_processing": "streamed from in-memory Stage 5 masks; no intermediate ROI cache files"
+}

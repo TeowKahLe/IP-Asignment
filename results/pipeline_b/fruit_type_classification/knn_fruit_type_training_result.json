@@ -1,0 +1,8 @@
+{
+  "locked_parameters": {
+    "n_neighbors": 7
+  },
+  "train_samples": 38937,
+  "training_time_seconds": 0.15348249999806285,
+  "model_path": "c:\\Users\\Owner\\Documents\\GitHub\\IP-Asignment\\results\\pipeline_b\\fruit_type_classification\\knn_fruit_type_model.joblib"
+}

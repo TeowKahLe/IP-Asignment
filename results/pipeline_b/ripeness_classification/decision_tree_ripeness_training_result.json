@@ -1,0 +1,12 @@
+{
+  "locked_parameters": {
+    "criterion": "gini",
+    "max_depth": 5,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1
+  },
+  "random_state": 42,
+  "train_samples": 38937,
+  "training_time_seconds": 0.27447050000773743,
+  "model_path": "c:\\Users\\Owner\\Documents\\GitHub\\IP-Asignment\\results\\pipeline_b\\ripeness_classification\\decision_tree_ripeness_model.joblib"
+}

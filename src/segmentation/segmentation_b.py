@@ -17,23 +17,15 @@ import numpy as np
 DEFAULT_GLOBAL_THRESHOLD = 128
 
 
-def _border_foreground_fraction(mask: np.ndarray) -> float:
-    """Return the fraction of foreground pixels along the image border."""
-    border = np.concatenate((mask[0], mask[-1], mask[1:-1, 0], mask[1:-1, -1]))
-    return float(np.mean(border == 255))
-
-
 def segment_image(
     image: np.ndarray,
     threshold: int = DEFAULT_GLOBAL_THRESHOLD
 ) -> tuple[np.ndarray, dict[str, Any], float]:
-    """Segment a Wiener-filtered BGR image using global thresholding.
+    """Segment a Wiener-filtered BGR image using inverted global thresholding.
 
-    A fixed global threshold is applied to the grayscale image. Between the
-    thresholded image and its inverse, the mask with less foreground touching
-    the border is selected so the centrally photographed fruit is consistently
-    represented as foreground. This is polarity handling, not threshold
-    tuning.
+    A fixed global threshold is applied to the grayscale image. Pixels darker
+    than the threshold are represented as foreground, while brighter pixels
+    are represented as background.
     """
     if image is None or image.size == 0:
         raise ValueError("image must be a non-empty BGR image")
@@ -48,22 +40,14 @@ def segment_image(
 
     grayscale = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    _, binary_mask = cv2.threshold(
+    _, mask = cv2.threshold(
         grayscale,
         threshold,
         255,
-        cv2.THRESH_BINARY
+        cv2.THRESH_BINARY_INV
     )
 
-    inverse_mask = cv2.bitwise_not(binary_mask)
-
-    binary_border = _border_foreground_fraction(binary_mask)
-    inverse_border = _border_foreground_fraction(inverse_mask)
-
-    if inverse_border < binary_border:
-        mask, polarity = inverse_mask, "inverted"
-    else:
-        mask, polarity = binary_mask, "binary"
+    polarity = "inverted"
 
     processing_time_seconds = perf_counter() - started_at
 
