@@ -1,0 +1,23 @@
+Section,Stage,Benchmark A,Benchmark B,Benchmark,Fruit Count Accuracy,Fruit Type Accuracy,Ripeness Accuracy,Benchmark A Score,Benchmark B Score,Metrics Compared,Winner,Technique,Accuracy,Macro Precision,Macro Recall,Macro F1,Training Time (s),Prediction Time (ms/ROI),Test ROIs
+Benchmark Algorithm Configuration,Preprocessing,Median Filter 3×3,Wiener Filter 3×3,,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Segmentation,Otsu Thresholding,"Global Thresholding, threshold 128",,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Morphological Processing,"Morphological Opening, ellipse 3×3","Morphological Closing, ellipse 3×3",,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Fruit Detection,"External Contours, minimum area 10,000","Connected Component Analysis, 8-connectivity, minimum area 7,000",,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Fruit Counting,Valid Contour Counting,Connected Component Counting,,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Feature Extraction,"RGB Colour Histogram, 8 bins/channel","Uniform LBP, radius 3, 8 points",,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Fruit Type Classification,LightGBM,KNN,,,,,,,,,,,,,,,,
+Benchmark Algorithm Configuration,Ripeness Classification,CatBoost,Decision Tree,,,,,,,,,,,,,,,,
+Final Prediction Performance,,,,Benchmark A,0.8370250315144967,0.7544386422976501,0.6768929503916449,,,,,,,,,,,,
+Final Prediction Performance,,,,Benchmark B,0.6486583828561138,0.2955060812203669,0.3079777365491651,,,,,,,,,,,,
+Stage Scorecard,3. Preprocessing,,,,,,,3.0,2.0,5.0,Benchmark A,,,,,,,,
+Stage Scorecard,4. Segmentation,,,,,,,3.0,1.0,4.0,Benchmark A,,,,,,,,
+Stage Scorecard,5. Morphological Processing,,,,,,,3.0,1.0,4.0,Benchmark A,,,,,,,,
+Stage Scorecard,6. Fruit Detection,,,,,,,1.0,1.0,2.0,Tie,,,,,,,,
+Stage Scorecard,7. Fruit Counting,,,,,,,4.0,0.0,4.0,Benchmark A,,,,,,,,
+Stage Scorecard,10. Feature Extraction,,,,,,,2.0,2.0,4.0,Tie,,,,,,,,
+Stage Scorecard,11. Fruit Type Classification,,,,,,,4.0,2.0,6.0,Benchmark A,,,,,,,,
+Stage Scorecard,12. Ripeness Classification,,,,,,,4.0,2.0,6.0,Benchmark A,,,,,,,,
+Fruit Type Classification,,,,Benchmark A,,,,,,,,LightGBM,0.7544386422976501,0.6628592399282178,0.5634335464429687,0.5894345265109387,7.147896200011019,0.03638214099402697,7660.0
+Fruit Type Classification,,,,Benchmark B,,,,,,,,KNN,0.2955060812203669,0.1962808188758698,0.18561097465529938,0.17378082242319168,0.15348249999806285,0.02012128427109125,9702.0
+Ripeness Classification,,,,Benchmark A,,,,,,,,CatBoost,0.6768929503916449,0.6974219790997762,0.6272228016179676,0.650303158738735,30.19669900002191,0.001085678850453804,7660.0
+Ripeness Classification,,,,Benchmark B,,,,,,,,Decision Tree,0.3079777365491651,0.28336220884228963,0.23681865913934758,0.20568789594795617,0.27447050000773743,0.0003708307574438041,9702.0

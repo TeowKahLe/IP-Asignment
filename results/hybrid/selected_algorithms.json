@@ -1,0 +1,12 @@
+{
+  "standardization": "Existing 512x512 size-preserving standardization",
+  "preprocessing": "Pipeline A Median Filter (3x3)",
+  "segmentation": "Pipeline A Otsu Thresholding",
+  "morphology": "Pipeline A Morphological Opening (ellipse 3x3)",
+  "detection": "Selected from saved A/B detection evaluation",
+  "counting": "Selected from saved A/B counting evaluation",
+  "roi_extraction": "Existing ROI extraction matching selected detector",
+  "feature_extraction": "Pipeline B Uniform LBP + HSV Colour Moments",
+  "fruit_type_classifier": "Pipeline A LightGBM",
+  "ripeness_classifier": "Pipeline A CatBoost"
+}

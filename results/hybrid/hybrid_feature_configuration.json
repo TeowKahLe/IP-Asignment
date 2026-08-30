@@ -1,0 +1,5 @@
+{
+  "baseline_feature_algorithm": "Pipeline B Uniform LBP",
+  "hsv_colour_moments": 9,
+  "hybrid_feature_size": 19
+}

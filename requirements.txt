@@ -13,8 +13,8 @@
 #    C:\venvs\IP-Asignment-venv\Scripts\Activate.ps1
 #
 # 4. Install all required packages:
-#    python -m pip install --upgrade pip
-#    python -m pip install -r requirements.txt
+#    py -m pip install --upgrade pip
+#    py -m pip install -r requirements.txt
 #
 # 5. In VS Code, select the following Python interpreter / Jupyter kernel:
 #    Press Ctrl + Shift + P.
@@ -40,3 +40,5 @@ scikit-image
 scikit-learn
 lightgbm
 catboost
+streamlit
+plotly

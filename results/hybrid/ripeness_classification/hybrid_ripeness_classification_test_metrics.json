@@ -1,0 +1,66 @@
+{
+  "accuracy": 0.6364153303764358,
+  "macro_precision": 0.6493236854924684,
+  "macro_recall": 0.6011251818499421,
+  "macro_f1_score": 0.6181202170845874,
+  "training_time_seconds": 3.052837700000964,
+  "prediction_time_ms_per_roi": 0.0004927101152615716,
+  "samples_evaluated": 8793,
+  "classes_evaluated": 4,
+  "class_labels": [
+    "Overripe",
+    "Ripe",
+    "Rotten",
+    "Unripe"
+  ],
+  "per_class_precision": {
+    "Overripe": 0.644927536231884,
+    "Ripe": 0.5910561929979405,
+    "Rotten": 0.6326332794830372,
+    "Unripe": 0.728677733257012
+  },
+  "per_class_recall": {
+    "Overripe": 0.46054333764553684,
+    "Ripe": 0.6595535128036769,
+    "Rotten": 0.7089065894279507,
+    "Unripe": 0.575497287522604
+  },
+  "per_class_f1_score": {
+    "Overripe": 0.5373584905660377,
+    "Ripe": 0.6234290147401086,
+    "Rotten": 0.6686016732115417,
+    "Unripe": 0.6430916898206618
+  },
+  "per_class_support": {
+    "Overripe": 773,
+    "Ripe": 3046,
+    "Rotten": 2762,
+    "Unripe": 2212
+  },
+  "confusion_matrix": [
+    [
+      356,
+      215,
+      175,
+      27
+    ],
+    [
+      97,
+      2009,
+      669,
+      271
+    ],
+    [
+      70,
+      558,
+      1958,
+      176
+    ],
+    [
+      29,
+      617,
+      293,
+      1273
+    ]
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "validation_results": [
+    {
+      "parameters": {
+        "iterations": 150,
+        "learning_rate": 0.05,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      "accuracy": 0.6173261469698962,
+      "macro_precision": 0.6421865013303848,
+      "macro_recall": 0.57937976720039,
+      "macro_f1_score": 0.5999153701121954,
+      "training_time_seconds": 2.084888600045815,
+      "prediction_time_ms_per_roi": 0.0005069146872074121,
+      "samples_evaluated": 7607,
+      "classes_evaluated": 4,
+      "class_labels": [
+        "Overripe",
+        "Ripe",
+        "Rotten",
+        "Unripe"
+      ],
+      "per_class_precision": {
+        "Overripe": 0.6762749445676275,
+        "Ripe": 0.5727121464226289,
+        "Rotten": 0.6034226190476191,
+        "Unripe": 0.7163362952836637
+      },
+      "per_class_recall": {
+        "Overripe": 0.4218533886583679,
+        "Ripe": 0.6521409624857901,
+        "Rotten": 0.680083857442348,
+        "Unripe": 0.5634408602150538
+      },
+      "per_class_f1_score": {
+        "Overripe": 0.5195911413969335,
+        "Ripe": 0.609851169383416,
+        "Rotten": 0.6394638281095999,
+        "Unripe": 0.6307553415588324
+      },
+      "per_class_support": {
+        "Overripe": 723,
+        "Ripe": 2639,
+        "Rotten": 2385,
+        "Unripe": 1860
+      },
+      "confusion_matrix": [
+        [
+          305,
+          205,
+          178,
+          35
+        ],
+        [
+          72,
+          1721,
+          598,
+          248
+        ],
+        [
+          59,
+          572,
+          1622,
+          132
+        ],
+        [
+          15,
+          507,
+          290,
+          1048
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "iterations": 250,
+        "learning_rate": 0.05,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      "accuracy": 0.6416458525042724,
+      "macro_precision": 0.6597376071050507,
+      "macro_recall": 0.6096388752417503,
+      "macro_f1_score": 0.6276426425554771,
+      "training_time_seconds": 3.265028900001198,
+      "prediction_time_ms_per_roi": 0.0005014460365271677,
+      "samples_evaluated": 7607,
+      "classes_evaluated": 4,
+      "class_labels": [
+        "Overripe",
+        "Ripe",
+        "Rotten",
+        "Unripe"
+      ],
+      "per_class_precision": {
+        "Overripe": 0.6813627254509018,
+        "Ripe": 0.6028541594152453,
+        "Rotten": 0.6245339299030574,
+        "Unripe": 0.7301996136509981
+      },
+      "per_class_recall": {
+        "Overripe": 0.4702627939142462,
+        "Ripe": 0.6563092080333459,
+        "Rotten": 0.7023060796645703,
+        "Unripe": 0.6096774193548387
+      },
+      "per_class_f1_score": {
+        "Overripe": 0.5564648117839607,
+        "Ripe": 0.6284470246734397,
+        "Rotten": 0.6611407144266824,
+        "Unripe": 0.664518019337826
+      },
+      "per_class_support": {
+        "Overripe": 723,
+        "Ripe": 2639,
+        "Rotten": 2385,
+        "Unripe": 1860
+      },
+      "confusion_matrix": [
+        [
+          340,
+          186,
+          164,
+          33
+        ],
+        [
+          76,
+          1732,
+          585,
+          246
+        ],
+        [
+          67,
+          503,
+          1675,
+          140
+        ],
+        [
+          16,
+          452,
+          258,
+          1134
+        ]
+      ]
+    }
+  ]
+}

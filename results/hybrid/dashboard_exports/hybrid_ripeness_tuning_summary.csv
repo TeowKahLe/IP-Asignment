@@ -1,0 +1,3 @@
+Configuration,Selected,iterations,learning_rate,depth,l2_leaf_reg,Validation Accuracy,Validation Macro Precision,Validation Macro Recall,Validation Macro F1,Training Time (s),Prediction Time (ms/ROI)
+Configuration 1,False,150,0.05,6,3,0.6173,0.6422,0.5794,0.5999,2.0849,0.0005
+Configuration 2,True,250,0.05,6,3,0.6416,0.6597,0.6096,0.6276,3.265,0.0005
